@@ -1,5 +1,5 @@
 # Use an official Ubuntu as a base image
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 # Install basic utilities (optional)
 RUN apt-get update && apt-get install -y curl
